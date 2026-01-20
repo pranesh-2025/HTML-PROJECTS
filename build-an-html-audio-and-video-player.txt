@@ -1,0 +1,27 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Audio and Video Lab</title>
+</head>
+<body>
+<h1>Html multimedia  player</h1>
+<section>
+  <h2>Map method and its explanation</h2>
+  <video width="640" controls>
+    <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+    </video>
+    </section>
+    <section>
+      <h2>Now playing,listen it!</h2>
+      <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/we-are-going-to-make-it.mp3" controls loop></body>
+      </audio>
+      </section>
+      </body>
+</html>
+
+** end of index.html **
+
