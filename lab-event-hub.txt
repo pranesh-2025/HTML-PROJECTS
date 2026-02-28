@@ -1,0 +1,53 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+<li><a href="#upcoming-events">Upcoming Events</a></li>
+<li><a href="#past-events">Past Events</a></li>
+                </ul>
+                </nav>
+                </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+        <h3>AI and ML workshop 2027</h3>
+        <p>A workshop that contains vast knowledge,fun ,real-time experimentation about Artificial Intelligence and Machine learning with automation. Date:15-02-2027</p></article>
+
+            <article><h3>Full Stack Web Development Summer Bootcamp 2027</h3>
+            <p>This Bootcamp gave a enhanced learning  experience about HTMl,CSS and JavaScript in the Front-end and python(Django,Flask) in the Back-end with Database SQL. Date:20-04-2027</p> 
+            </article>
+            </section>
+<section id="past-events">
+    <h2>Past Events</h2>
+    <article><h3>Cloud Computing Seminar</h3>
+    <p>Experts Discussed about cloud deployment and service models.It held on 05-5-2025</p>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg."
+       alt="Audience attending a cloud computing seminar">L
+        </article>
+        <article><h3>Cyber Security Awareness</h3>
+        <p>A session on digital safety, encryption basics, and online privacy.
+          Held on February 5, 2026.</p>
+          <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Speaker presenting cyber security concepts">
+            </article>
+
+    </section>
+    </main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
