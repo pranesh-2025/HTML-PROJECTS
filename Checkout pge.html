@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+    <style>
+        body {
+            font-family:Arial,sans-serif;
+            margin:20px;
+
+        }
+        section
+        {
+            margin-bottom:30px;
+            padding:15px;
+            border:1px solid #cc;
+            border-radius:8px;
+
+        }
+        img {
+            max-width:150 px;
+
+        }
+        label{
+            display:block;
+             margin-top:10px;
+        }
+        input {
+            margin-top:5px;
+            padding:5px;
+            width:100%;
+            max-width:300px;
+        }
+        </style>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+<section>
+    <h2>Your Cart</h2>
+  
+<img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+alt="A 3D cube product in your cart">
+<p>Sample product added to your cart.</p>
+    </section>
+    <section>
+       <h2>Payment Information</h2>
+<form>
+    <label for="card-name">Card Name<span aria-hidden="true">*</span>
+    </label>
+<input type="text"
+id="card-name"
+name="card-name"
+required>
+<label for="card-number">Card Number<span aria-hidden="true">*</span>
+</label>
+<input type="text"
+id="card-number"
+name="card-number"
+required
+aria-describedby="card-number-help">
+<p id="card-number-help">
+          Enter a valid 16-digit card number without spaces.
+        </p>
+        </form>
+
+        </section>
+
+</body>
+
+</html>

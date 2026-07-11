@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+
+<style>
+<body>
+{
+  font-family:Arial,sans-serif;
+  background-color:#f4f6f9;
+  color:#222;
+  margin:0;
+  padding:20px;
+}
+
+h1
+{
+  text-align:center;
+  color:#0b3d91;
+  margin-bottom:40px;
+}
+section
+{
+  background:white;
+  padding:20px;
+  margin:20px auto;
+  border-radius:12px;
+  max-width:800px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    audio,
+    video {
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+    }
+  </style>
+</head>
+</body>
+<body>
+  <h1>My Multimedia Player</h1>
+  <section>
+    <h2>Now Playing:Sailing Away</h2>
+
+    <audio controls aria-label="Audio Player for Sailing Away song">
+    <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"
+    type="audio/mpeg">
+    </audio>
+    </section>
+
+<section>
+  <h2>Learning Video:JavaScript Method</h2>
+  <video controls width="600" aria-label="video explaining javaScript map method">
+    <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+    <track src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt" 
+    kind="subtitles"
+    srclang="eng"
+    label="english">
+    </video>
+    </section>
+
+<section>
+  <h2>Transcript</h2>
+  <p>   This video explains the JavaScript map method and how it works.
+      The map method is used to create a new array by applying a function
+      to each element of an existing array. It is commonly used in modern
+      JavaScript development because it makes code cleaner and easier to read.
+    </p>
+
+
+
+
+    </section>
+
+
+</body>
+
+</html>
